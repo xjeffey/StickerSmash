@@ -7,6 +7,7 @@ type Props = {
   onCloseModal: () => void;
 };
 
+//testing
 export default function EmojiList({ onSelect, onCloseModal }: Props) {
   const [emoji] = useState<ImageSource[]>([
     require("../assets/images/emoji1.png"),
